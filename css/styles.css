@@ -89,11 +89,18 @@ h3 {
   align-items: center;
   height: 80px;
 }
-.nav-header,
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .address-tel,
 .address {
   display: flex;
   align-items: center;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  gap: 46px;
 }
 .nav-header-item,
 .address-mail,
@@ -105,9 +112,13 @@ h3 {
   display: flex;
 }
 .nav-header-item {
-  margin-right: 46px;
   justify-content: space-between;
   align-items: center;
+  color: #000000;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
 }
 .address {
   margin-left: auto;
@@ -132,13 +143,7 @@ h3 {
   color: #757575;
   text-align: left;
 }
-.nav-header-item {
-  color: #000000;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-}
+
 .section-baner {
   background-image: linear-gradient(#2f303a40, #2f303a40),
     url(../images/background-baner.jpg);
@@ -462,7 +467,7 @@ ul {
   position: absolute;
   top: 46px;
   left: 0;
-  width: 50%;
+  width: 100%;
   height: 4px;
   background-color: #2196f3;
   border-radius: 2px;
