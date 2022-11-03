@@ -362,6 +362,8 @@ ul {
 .text-post {
   line-height: 36px;
   margin-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 .section {
   padding-top: 94px;
