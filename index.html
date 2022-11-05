@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="pl">
 
+<!-- ========== HEAD_Index ========== -->
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,6 +18,9 @@
 </head>
 
 <body>
+
+    <!-- ========== HEADER ========= -->
+
     <header class="header">
         <div class="container">
             <nav class="nav-header">
@@ -26,9 +31,9 @@
                     <li><a class="nav-header-item" href="#"> Kontakt </a></li>
                 </ul>
             </nav>
-            <ul class="address">
+            <ul class="contacts">
                 <li>
-                    <a class="address-mail" href="mailto:info@devstudio.com">
+                    <a class="contact-mail" href="mailto:info@devstudio.com">
                         <svg class="icon-mail" width="20" height="16">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
@@ -36,7 +41,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="address-tel" href="tel:+48111111111">
+                    <a class="contact-tel" href="tel:+48111111111">
                         <svg class="icon-phone" width="16" height="20">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
@@ -45,14 +50,23 @@
             </ul>
         </div>
     </header>
+
+    <!-- ========== MAIN ========= -->
+
     <main>
+
+        <!-- ========== BANER ========= -->
+
         <section class="section-baner">
             <div class="container">
                 <ul class="box-baner">
                     <li>
                         <h1 class="baner-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
                     </li>
-                    <li class="btn-baner"><button class="btn-order" type="button" data-modal-open>Zamów usługę</button>
+                    <li class="btn-baner">
+                        <button class="btn-order" type="button" data-modal-open>Zamów usługę</button>
+
+                        <!-- ========== WINDOW_BTN_ORDER ========= -->
 
                         <div class="backdrop is-hidden" data-modal>
                             <div class="modal">
@@ -67,6 +81,9 @@
                 </ul>
             </div>
         </section>
+
+        <!-- ========== SKILLS_ICONS ========= -->
+
         <section class="section">
             <div class="container">
                 <ul class="box-skills-icons">
@@ -92,34 +109,44 @@
                         </svg>
                     </li>
                 </ul>
+
+                <!-- ========== SKILLS_CONTENTS ========= -->
+
                 <ul class="box-skills">
                     <li class="skill">
                         <h4>LOREM IPSUM</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                            sodales
                             dui. Interdum et malesuada</p>
                     </li>
                     <li class="skill">
                         <h4>LOREM IPSUM</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                            sodales
                             dui. Interdum et malesuada</p>
                     </li>
                     <li class="skill">
                         <h4>LOREM IPSUM</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                            sodales
                             dui. Interdum et malesuada</p>
                     </li>
                     <li class="skill">
                         <h4>LOREM IPSUM</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                            sodales
                             dui. Interdum et malesuada
                         </p>
                     </li>
                 </ul>
             </div>
         </section>
+
+        <!-- ========== WHAT_WE_DO ========= -->
+
         <section class="section-img">
             <div class="container">
-                <h2 class="title1">Czym się zajmujemy</h2>
+                <h2>Czym się zajmujemy</h2>
                 <ul class="box-img">
                     <li class="image">
                         <h4 class="title-img">Aplikacje komputerowe</h4>
@@ -136,186 +163,193 @@
                 </ul>
             </div>
         </section>
+
+        <!-- ========== OUR_TEAM ========= -->
+
         <section class="section-team">
             <div class="container">
-                <div class="team">
-                    <h2 class="title2">Nasz zespół</h2>
-                    <ul class="team-cards">
-                        <li>
-                            <figure class="card">
-                                <img src="images/card1.jpg" alt="men1" width="270" height="260" />
-                                <figcaption>
-                                    <h5>John Doe</h5>
-                                    <p>Product Designer</p>
-                                    <ul class="list-social-media">
-                                        <li class="media-icon">
-                                            <button class="media-btn"><svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-instagram"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon">
-                                            <button class="media-btn"><svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-twitter">
-                                                    </use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon"><button class="media-btn">
-                                                <svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-facebook"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon"><button class="media-btn">
-                                                <svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-linkedin"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure class="card">
-                                <img src="images/card2.jpg" alt="women1" width="270" height="260" />
-                                <figcaption>
-                                    <h5>John Doe</h5>
-                                    <p>Frontend Developer</p>
-                                    <ul class="list-social-media">
-                                        <li class="media-icon">
-                                            <button class="media-btn"><svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-instagram"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon">
-                                            <button class="media-btn"><svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-twitter">
-                                                    </use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon"><button class="media-btn">
-                                                <svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-facebook"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon"><button class="media-btn">
-                                                <svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-linkedin"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure class="card">
-                                <img src="images/card3.jpg" alt="men2" width="270" height="260" />
-                                <figcaption>
-                                    <h5>John Doe</h5>
-                                    <p>Marketing</p>
-                                    <ul class="list-social-media">
-                                        <li class="media-icon">
-                                            <button class="media-btn"><svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-instagram"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon">
-                                            <button class="media-btn"><svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-twitter">
-                                                    </use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon"><button class="media-btn">
-                                                <svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-facebook"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon"><button class="media-btn">
-                                                <svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-linkedin"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                    </ul>
 
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <li>
-                            <figure class="card">
-                                <img src="images/card4.jpg" alt="men3" width="270" height="260" />
-                                <figcaption>
-                                    <h5>John Doe</h5>
-                                    <p>UI Designer</p>
-                                    <ul class="list-social-media">
-                                        <li class="media-icon">
-                                            <button class="media-btn"><svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-instagram"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon">
-                                            <button class="media-btn"><svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-twitter">
-                                                    </use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon"><button class="media-btn">
-                                                <svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-facebook"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                        <li class="media-icon"><button class="media-btn">
-                                                <svg width="20" height="20">
-                                                    <use href="./images/icons.svg#icon-linkedin"></use>
-                                                </svg>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </figcaption>
-                            </figure>
-                        </li>
-                    </ul>
-                </div>
+                <h2>Nasz zespół</h2>
+                <ul class="team-cards">
+                    <li>
+                        <figure class="card">
+                            <img src="images/card1.jpg" alt="men1" width="270" height="260" />
+                            <figcaption>
+                                <h5>John Doe</h5>
+                                <p>Product Designer</p>
+                                <ul class="list-social-media">
+                                    <li>
+                                        <button class="media-btn"><svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-instagram"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="media-btn"><svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-twitter">
+                                                </use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li><button class="media-btn">
+                                            <svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li><button class="media-btn">
+                                            <svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="card">
+                            <img src="images/card2.jpg" alt="women1" width="270" height="260" />
+                            <figcaption>
+                                <h5>John Doe</h5>
+                                <p>Frontend Developer</p>
+                                <ul class="list-social-media">
+                                    <li>
+                                        <button class="media-btn"><svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-instagram"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="media-btn"><svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-twitter">
+                                                </use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li><button class="media-btn">
+                                            <svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li><button class="media-btn">
+                                            <svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="card">
+                            <img src="images/card3.jpg" alt="men2" width="270" height="260" />
+                            <figcaption>
+                                <h5>John Doe</h5>
+                                <p>Marketing</p>
+                                <ul class="list-social-media">
+                                    <li>
+                                        <button class="media-btn"><svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-instagram"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="media-btn"><svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-twitter">
+                                                </use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li><button class="media-btn">
+                                            <svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li><button class="media-btn">
+                                            <svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="card">
+                            <img src="images/card4.jpg" alt="men3" width="270" height="260" />
+                            <figcaption>
+                                <h5>John Doe</h5>
+                                <p>UI Designer</p>
+                                <ul class="list-social-media">
+                                    <li>
+                                        <button class="media-btn"><svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-instagram"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="media-btn"><svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-twitter">
+                                                </use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li><button class="media-btn">
+                                            <svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                    <li><button class="media-btn">
+                                            <svg width="20" height="20">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
             </div>
         </section>
+
+        <!-- ========== OUR_CUSTOMERS ========= -->
+
         <section class="section">
             <div class="container">
-                <h2 class="title2">Nasi Klienci</h2>
+                <h2>Nasi Klienci</h2>
                 <ul class="list-clients">
-                    <li class="icon-client"><button class="icon-btn"><svg width="106" height="60.04">
+                    <li><button class="icon-btn"><svg width="106" height="60.04">
                                 <use href="./images/icons.svg#icon-client1"></use>
                             </svg></button></li>
-                    <li class="icon-client"><button class="icon-btn"><svg width="106" height="60.04">
+                    <li><button class="icon-btn"><svg width="106" height="60.04">
                                 <use href="./images/icons.svg#icon-client2"></use>
                             </svg></button></li>
-                    <li class="icon-client"><button class="icon-btn"><svg width="106" height="60.04">
+                    <li><button class="icon-btn"><svg width="106" height="60.04">
                                 <use href="./images/icons.svg#icon-client3"></use>
                             </svg></button></li>
-                    <li class="icon-client"><button class="icon-btn"><svg width="106" height="60.04">
+                    <li><button class="icon-btn"><svg width="106" height="60.04">
                                 <use href="./images/icons.svg#icon-client4"></use>
                             </svg></button></li>
-                    <li class="icon-client"><button class="icon-btn"><svg width="106" height="60.04">
+                    <li><button class="icon-btn"><svg width="106" height="60.04">
                                 <use href="./images/icons.svg#icon-client5"></use>
                             </svg></button></li>
-                    <li class="icon-client"><button class="icon-btn"><svg width="106" height="60.04">
+                    <li><button class="icon-btn"><svg width="106" height="60.04">
                                 <use href="./images/icons.svg#icon-client6"></use>
                             </svg></button></li>
                 </ul>
             </div>
         </section>
     </main>
+
+    <!-- ========== Footer ========= -->
+
     <footer>
         <section class="section-footer">
             <div class="container-footer">
@@ -329,13 +363,13 @@
                             </li>
                             <li class="address-item"><a class="mail-footer"
                                     href="mailto:info@example.com">info@example.com</a></li>
-                            <li class="address-item"><a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a>
+                            <li class="address-item"><a class="tel-footer" href="tel:+48111111111">+48 111 111
+                                    111</a>
                             </li>
                         </ul>
                     </address>
                 </div>
                 <div class="box-social">
-
                     <h3 class="title3">Dołącz do nas</h3>
                     <ul class="footer-socialmedia">
                         <li>
