@@ -30,9 +30,7 @@ h4 {
 .list-clients {
   display: flex;
   justify-content: center;
-}
-.icon-client {
-  margin: 15px;
+  gap: 30px;
 }
 .icon-btn {
   background: none;
@@ -430,7 +428,6 @@ ul {
 
 .section-footer {
   display: flex;
-  padding-left: px;
   padding-top: 94px;
   padding-bottom: 94px;
   background: #2f303a;
