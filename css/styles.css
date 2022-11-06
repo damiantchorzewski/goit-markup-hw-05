@@ -16,10 +16,6 @@
   --bg-grey-dark: #2f303a;
   --shadows-2: rgba(255, 255, 255, 0.1);
   --shadows-1: rgba(255, 255, 255, 0.6);
-  --box-shadow-1: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  --box-shadow-2: 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   --shadows-3: rgba(33 150 243 / 0.9);
 }
 
@@ -496,7 +492,8 @@ h3 {
 .filtr:focus {
   background-color: var(--blue);
   color: var(--bg-grey);
-  box-shadow: var(--box-shadow-1);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .list-filtrs {
   display: flex;
@@ -543,7 +540,8 @@ h3 {
   padding-bottom: 10px;
 }
 .product-figure:hover {
-  box-shadow: var(--box-shadow-2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /*========== ACTIVE_PRODUCT ========= */
 .active-product {
