@@ -513,6 +513,8 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--black-title);
   background: var(--bg-grey);
+  padding-right: 22px;
+  padding-left: 22px;
   margin-right: 8px;
 }
 .container-product {
