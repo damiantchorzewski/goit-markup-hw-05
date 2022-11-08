@@ -35,14 +35,9 @@ body {
 }
 .icon-contact:hover,
 a:focus,
-a:hover,
-.btn-client:hover,
-.btn-client:focus {
-  --color2: var;
-  --color5: #2196f3;
-  --color3: #2196f3;
-  color: #2196f3;
-  border-color: #2196f3;
+a:hover {
+  fill:var(--blue);
+  color: var(--blue)
 }
 h2 {
   text-align: center;
@@ -275,7 +270,7 @@ h3 {
   background-color: var(--white);
   cursor: pointer;
 }
-.icon-x {
+.icon-close {
   margin: auto;
   width: 18px;
   height: 18px;
@@ -370,40 +365,76 @@ h3 {
   padding-bottom: 30px;
   padding-top: 10px;
 }
-.btn-media {
-  border-radius: 50%;
-  border: none;
-  background: none;
+.list-socialmedia-links {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-link {
+  display: flex;
   width: 44px;
   height: 44px;
+  background-color: var(--white);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: var(--grey-text-normal);
+  transition: background-color var(--transition-duration) var(--cubic-bezier),
+    fill var(--transition-duration) var(--cubic-bezier);
+  will-change: background-color , fill;
 }
-.btn-media:hover,
-.btn-media:focus {
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-link:hover,
+.social-link:focus {
   background-color: var(--blue);
-  --color3: #fff;
+  fill: var(--white);
 }
+
 
 /* ========== OUR_CUSTOMERS ========= */
 
-.list-clients {
+.clients-list {
   display: flex;
-  justify-content: center;
   gap: 30px;
 }
-.btn-client {
- 
-}
-.btn-client
-{
-   display: flex;
+
+.client-link {
+  display: flex;
   padding: 16px 32px;
-  border: 1px solid var(--icon-color-grey);
+  border: 1px solid var(--grey-text-normal);
   border-radius: 4px;
-  fill: var(--icon-color-grey);
+  fill: var(--grey-text-normal);
   transition: border-color var(--transition-duration) var(--cubic-bezier),
     fill var(--transition-duration) var(--cubic-bezier);
   will-change: border-color, fill;
 }
+
+.client-link:hover,
+.client-link:focus {
+  border-color: var(--blue);
+  fill: var(--blue);
+}
+
+.our-clients {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.client-icon {
+  width: 106px;
+  height: 60px;
+}
+
 /* ========== Footer ========= */
 
 .section-footer {
