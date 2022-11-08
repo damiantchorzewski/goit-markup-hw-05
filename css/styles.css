@@ -37,7 +37,7 @@ body {
   fill: var(--grey-text-normal);
 }
 
-.icon-contact:hover,
+.contact:hover,
 a:focus,
 a:hover {
   fill: var(--blue);
