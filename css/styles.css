@@ -36,8 +36,7 @@ body {
 .contacts {
   fill: var(--grey-text-normal);
 }
-
-.contact:hover,
+.icon-contact:hover,
 a:focus,
 a:hover {
   fill: var(--blue);
@@ -144,6 +143,7 @@ h3 {
 .portfolio-list {
   text-decoration: none;
 }
+.contact-mail,
 .contact-tel {
   display: flex;
 }
