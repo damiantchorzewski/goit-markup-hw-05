@@ -33,9 +33,10 @@ body {
 :focus {
   transition: var(--transition-duration) var(--cubic-bezier);
 }
-.icon-contact {
+.contacts {
   fill: var(--grey-text-normal);
 }
+
 .icon-contact:hover,
 a:focus,
 a:hover {
@@ -127,7 +128,7 @@ h3 {
 .header {
   border-bottom: 1px solid var(--border-header);
 }
-.contact-tel,
+.contact-mail,
 .contacts {
   display: flex;
   align-items: center;
@@ -143,7 +144,7 @@ h3 {
 .portfolio-list {
   text-decoration: none;
 }
-.contact-mail {
+.contact-tel {
   display: flex;
 }
 .nav-header-item {
