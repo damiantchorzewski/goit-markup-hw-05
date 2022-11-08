@@ -38,7 +38,7 @@ a:focus,
 a:hover,
 .btn-client:hover,
 .btn-client:focus {
-  --color2: #2196f3;
+  --color2: var;
   --color5: #2196f3;
   --color3: #2196f3;
   color: #2196f3;
@@ -293,9 +293,10 @@ h3 {
   height: 120px;
   width: 270px;
   text-align: center;
-  background: var(--bg-grey);
+  background-color: var(--bg-grey);
   border-radius: 4px;
   padding-top: 30px;
+  fill: #757575;
 }
 
 /* ========== SKILLS_CONTENTS ========= */
@@ -390,12 +391,19 @@ h3 {
   gap: 30px;
 }
 .btn-client {
-  background: none;
-  border: 1px solid var(--border-btn);
-  border-radius: 4px;
-  padding: 17.71px 32px 14.25px 32px;
+ 
 }
-
+.btn-client
+{
+   display: flex;
+  padding: 16px 32px;
+  border: 1px solid var(--icon-color-grey);
+  border-radius: 4px;
+  fill: var(--icon-color-grey);
+  transition: border-color var(--transition-duration) var(--cubic-bezier),
+    fill var(--transition-duration) var(--cubic-bezier);
+  will-change: border-color, fill;
+}
 /* ========== Footer ========= */
 
 .section-footer {
