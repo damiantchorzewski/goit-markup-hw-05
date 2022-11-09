@@ -144,7 +144,8 @@ h3 {
   text-decoration: none;
 }
 .contact-mail,
-.contact-tel {
+.contact-tel,
+.icon-contact {
   display: flex;
 }
 .nav-header-item {
